@@ -36,7 +36,7 @@ const WorkshopCard = ({ workshop }) => {
             />
           ))}
         </div>
-        <button className="view_details_btn">View Details</button>
+        <button className="ctaButton">View Details</button>
       </div>
     </div>
   );

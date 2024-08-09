@@ -26,7 +26,7 @@ const TicketCard = ({ ticket }) => {
       <strong className="ticketTimestamp">{ticket_timestamp}</strong>
       <div className="ticketPlan">
         <span className="ticketType">{ticket_type}</span>
-        <button className="buttonType">{button_name}</button>
+        <button className="ctaButton">{button_name}</button>
       </div>
     </div>
   );

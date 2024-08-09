@@ -1,6 +1,7 @@
 import React from "react";
 import EventLeftSiderbar from "../Components/EventLeftSidebar/EventLeftSiderbar";
 import EventDetails from "../Components/EventData/EventData";
+import "./EventPage.css";
 
 const EventPage = () => {
   return (

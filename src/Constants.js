@@ -1,7 +1,4 @@
-import { TfiWorld } from "react-icons/tfi";
-import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { TiSocialLinkedin } from "react-icons/ti";
+import { TfiWorld, FaFacebookF, FaXTwitter, TiSocialLinkedin } from "./icon";
 
 export const ticketPlanDetails = [
   {

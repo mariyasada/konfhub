@@ -1,6 +1,6 @@
 .eventContainer{
     display: flex;
     width: 100%;
-    background: red;
-    height:auto
+    gap: 2rem;
+   
 }

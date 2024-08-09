@@ -6,12 +6,13 @@
     width: 70%;
     gap:2rem;
     margin-left: 3rem;
+    /* flex: 1; */
 }
 .imageContainer{
     padding: 0.5rem;
     border-radius: 20px;
     background: white;    
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, .18);
+    box-shadow: 4px 2px 15px rgba(0, 0, 0, .15);
     margin: 0.5rem ;
     display: flex;
     align-items: center;

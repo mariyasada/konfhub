@@ -1,0 +1,123 @@
+.sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:1rem;
+    position: sticky !important;
+    top:4px;
+    flex-shrink: 0;
+    height: fit-content; 
+}
+.sidebarEventContainer{
+    width: 280px;
+    border-radius: 5px;
+    border: .8px solid#cacaca;
+    padding: 0.5rem 1.5rem;
+}
+.sidebarEventHeading{
+    font-family: Manrope;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 300px;
+    text-align: left;
+}
+.actionContainer{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    font-family: Manrope;
+    align-items: center;
+}
+.action{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 1rem;
+}
+.eventLink{
+    font-family: Manrope;
+    font-size: 1rem;
+    text-align: left;
+}
+.streamingLink{
+    color:blue
+}
+.eventDetail{
+    text-align: left;
+    font-family: Manrope;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.timeDetail{
+    text-align: left;
+    font-family: Manrope;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.officialWebsite{
+    display: flex;
+    gap:6px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px rgb(0 0 0/15%);
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .2s all;
+    background-color: #fff;
+    border: 1px solid black;
+    color: #000;   
+
+}
+.eventHeading{
+    font-size: 1.3rem;
+    font-family: Manrope;
+    text-transform: uppercase;
+    text-align: left;
+}
+.hostContainer{
+    margin-top:-1.7rem !important;
+    width: 280px ;
+}
+.eventOrganiserDetail{
+    font-size: 0.95rem;
+    font-family: Manrope;
+    text-align: left;
+    line-height: 26px;
+}
+.imageAndName{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imageAndName>img{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0;
+}
+.imageAndName>span{
+    font-family: Manrope;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.contactText{
+    font-family: Manrope;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+}

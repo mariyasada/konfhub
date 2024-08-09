@@ -65,18 +65,3 @@
     letter-spacing: 0em;
     text-align: center;
 }
-.buttonType{
-    width: auto;
-    padding: 12px 30px;
-    font-size: 1rem;
-    background-color: #000;
-    cursor: pointer;
-    box-shadow: 0px 4px 5px rgb(0 0 0/15%);
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    
-}

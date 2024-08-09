@@ -22,7 +22,7 @@ const SpeakerCard = ({ speaker }) => {
         </div>
         <div className="links">
           {social_media_links.map((link, index) => (
-            <div
+            <a
               key={index}
               href={link.url}
               target="_blank"
@@ -30,7 +30,7 @@ const SpeakerCard = ({ speaker }) => {
               className="iconContainer"
             >
               {link.icon}
-            </div>
+            </a>
           ))}
         </div>
       </div>

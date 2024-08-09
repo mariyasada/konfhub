@@ -45,29 +45,6 @@
     font-size: 1.1rem;
 }
 
-.view_details_btn{
-    width: auto;
-    padding: 10px 30px;
-    font-size: 1rem;
-    background-color: #000;
-    cursor: pointer;
-    -webkit-box-shadow: 0px 4px 5px rgb(0 0 0/15%);
-    -moz-box-shadow: 0px 4px 5px rgb(0 0 0/15%);
-    box-shadow: 0px 4px 5px rgb(0 0 0/15%);
-    border: none;
-    outline: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    -webkit-transition: .2s all;
-    -moz-transition: .2s all;
-    -o-transition: .2s all;
-    transition: .2s all;
-}
-
 
 .view_sections{
     display: flex;
