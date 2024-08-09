@@ -1,0 +1,64 @@
+.speakerCard{
+    background: #fff;
+    border-radius: 5px;
+    border: .8px solid#cacaca;
+    width: 300px;
+    padding: 12px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    gap:1rem
+}
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dataContainer>p{
+    margin-bottom: -3px;
+}
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(106, 106, 106);
+    color:white
+    
+}
+
+.profileName{    
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #141b25;
+    font-family: Manrope;
+
+}
+.details{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .875rem;
+    color: #141b25;
+    font-family: Manrope;
+
+}
+.profileImg{
+    cursor: pointer;
+    height:120px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 0px !important;
+    object-fit: cover;
+}
