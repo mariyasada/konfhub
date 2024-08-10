@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./WorkshopCard.css";
 import { SlCalender } from "react-icons/sl";
 import SidebarDrawer from "../SidebarDrawer/SidebarDrawer";
+import { useData } from "../../Context/DataContext";
 
 const WorkshopCard = ({ workshop }) => {
   const {
@@ -11,6 +12,7 @@ const WorkshopCard = ({ workshop }) => {
     profile_url,
   } = workshop;
   const [isDrawerOpen, setIsDrawerOpen] = useState(null);
+
   return (
     <div className="Card">
       <div className="imgContainer">

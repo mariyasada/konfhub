@@ -18,6 +18,7 @@ const Navigation = ({ scrollToSection, sectionRefs }) => {
         <div className="tabsScroll">
           {tabs.map(({ name, refKey }) => (
             <button
+              key={name}
               className={`tab manrope-font ${name === "About" && "active"}`}
               onClick={() => scrollToSection(sectionRefs[refKey])}
             >

@@ -16,7 +16,6 @@ import ReusableTickets from "../ReusableTickets/ReusableTickets";
 
 const EventDetails = () => {
   const { pageData } = useData();
-  // const [iscollapsableIds, setIscollapsableIds] = useState([]);
   const aboutRef = useRef(null);
   const ticketsRef = useRef(null);
   const speakersRef = useRef(null);
@@ -92,7 +91,7 @@ const EventDetails = () => {
         />
         <div className="speakerContainer">
           {speakersData?.map((speaker) => (
-            <SpeakerCard key={speaker.id} speaker={speaker} />
+            <SpeakerCard key={speaker.id} speaker={speaker} drawer={false} />
           ))}
         </div>
       </div>
