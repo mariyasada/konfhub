@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./WorkshopCard.css";
 import { SlCalender } from "react-icons/sl";
+import SidebarDrawer from "../SidebarDrawer/SidebarDrawer";
 
 const WorkshopCard = ({ workshop }) => {
   const {
@@ -9,6 +10,7 @@ const WorkshopCard = ({ workshop }) => {
     workshop_timestamp,
     profile_url,
   } = workshop;
+  const [isDrawerOpen, setIsDrawerOpen] = useState(null);
   return (
     <div className="Card">
       <div className="imgContainer">
@@ -36,8 +38,17 @@ const WorkshopCard = ({ workshop }) => {
             />
           ))}
         </div>
-        <button className="ctaButton">View Details</button>
+        <button className="ctaButton" onClick={() => setIsDrawerOpen(workshop)}>
+          View Details
+        </button>
       </div>
+      {isDrawerOpen && (
+        <SidebarDrawer
+          workshop={workshop}
+          isOpen={isDrawerOpen}
+          setIsOpen={setIsDrawerOpen}
+        />
+      )}
     </div>
   );
 };

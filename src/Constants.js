@@ -138,6 +138,8 @@ export const speakersData = [
     profile_url:
       "https://dev-media.konfhub.com/speakers/2024/June/09/1717977466945-9da4f3da-047e-491b-83c3-6c2adc46223b.jpg",
     profile_name: "Dark Knight",
+    wesite: "https://darkknight.in",
+    location: "",
     profile_designation: "Batman",
     profile_details: "Gotham",
     social_media_links: [
@@ -157,6 +159,9 @@ export const workshopData = [
     ],
     workshop_timestamp: "Jun 1st, 2034 at 10:00 AM (IST)",
     workshop_description: "How to make more money",
+    website: "",
+    location:
+      "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India",
     workshop_topic_img_url:
       "https://dev.konfhub.com/_next/image?url=https%3A%2F%2Fdev-media.konfhub.com%2Fsponsors%2F2024%2FJune%2F10%2F1717977949758-0e87f502-f5b9-4799-b857-623780fc1415.png&w=1920&q=75",
   },
@@ -167,6 +172,8 @@ export const workshopData = [
     ],
     workshop_description: "How to fight crime",
     workshop_timestamp: "Jun 1st, 2034 at 10:00 AM (IST)",
+    website: "https://darkknight.in",
+    location: "",
     workshop_topic_img_url:
       "https://dev.konfhub.com/_next/image?url=https%3A%2F%2Fdev-media.konfhub.com%2Fsponsors%2F2024%2FJune%2F10%2F1717978156489-c8a828a9-13ca-4572-b117-0483bafd34d9.jpg&w=1920&q=75",
   },
@@ -177,6 +184,8 @@ export const workshopData = [
       "https://dev-media.konfhub.com/speakers/2024/June/09/1717977337424-66d3d266-64c3-4c45-a4ec-f9288d96dbc8.jpg",
     ],
     workshop_timestamp: "Jun 1st, 2034 at 10:00 AM (IST)",
+    website: "",
+    location: "",
     workshop_description: "This is a workshop connected to a ticket",
     workshop_topic_img_url:
       "https://dev.konfhub.com/_next/image?url=https%3A%2F%2Fdev-media.konfhub.com%2Fsponsors%2F2024%2FJune%2F10%2F1717978363785-8225249d-f4dd-4572-826e-84093b5eb32f.jpg&w=1920&q=75",

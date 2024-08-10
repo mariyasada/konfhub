@@ -1,6 +1,6 @@
 import React from "react";
 import "./TicketCard.css";
-import { IoLocation } from "react-icons/io5";
+import { IoLocation } from "../../icon";
 
 const TicketCard = ({ ticket }) => {
   const {

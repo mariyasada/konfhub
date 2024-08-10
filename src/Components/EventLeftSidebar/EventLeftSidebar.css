@@ -10,7 +10,7 @@
 }
 .sidebarEventContainer{
     width: 280px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: .8px solid#cacaca;
     padding: 0rem 1.5rem 1.2rem 1.5rem;
 }
