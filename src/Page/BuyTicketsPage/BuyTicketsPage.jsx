@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowLeft } from "../../icon";
+import { BsCart, FaArrowLeft } from "../../icon";
 import "./BuyTicketsPage.css";
 import { SlCalender } from "react-icons/sl";
 import { useData } from "../../Context/DataContext";
@@ -28,6 +28,24 @@ const BuyTicketsPage = () => {
       </div>
       <div className="detailsContainer">
         <TicketsContainer />
+        {/*  Ticket price container */}
+        <div className="payment" style={{ opacity: "0.7" }}>
+          <div className="cartContainer">
+            <div>
+              <BsCart size={50} color="#C7C7B3" />
+            </div>
+            <p style={{ fontSize: "0.9rem", lineHeight: "27px" }}>
+              you haven't selected any ticket. Select a ticket to see the ticket
+              summary.
+            </p>
+          </div>
+          <button
+            className="ctaButton"
+            style={{ width: "100%", marginTop: "1rem", cursor: "not-allowed" }}
+          >
+            Proceed
+          </button>
+        </div>
       </div>
     </div>
   );

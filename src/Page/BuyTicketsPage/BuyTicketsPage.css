@@ -50,5 +50,22 @@
    font-weight: 500; 
 }
 .detailsContainer{
-    /* border:2px solid rgb(202, 202, 202) */
+    display: flex;
+    gap:1rem
+}
+.payment{
+    width: 25%;
+    border:2px solid rgb(202, 202, 202);
+    cursor: pointer;
+    height:fit-content;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f6f6fc;
+    gap:2rem;
+
+}
+.cartContainer{
+    background-color:white ;
+    padding: 2rem;
+    border-radius: 10px;
 }
