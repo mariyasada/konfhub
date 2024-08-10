@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useData } from "../../Context/DataContext";
 import { FaVideo } from "react-icons/fa";
-import { MdEmail, MdOutlinePaid } from "react-icons/md";
 import { calculateTimeLeft } from "../utils";
 import "./EventLeftSidebar.css";
 import { GoLinkExternal } from "react-icons/go";
@@ -12,11 +11,14 @@ import {
   TiSocialLinkedin,
   MdMailOutline,
   MdCall,
+  GrTicket,
 } from "./../../icon";
+import { useNavigate } from "react-router";
 
 const EventLeftSiderbar = () => {
   const { pageData } = useData();
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const navigate = useNavigate();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -47,7 +49,7 @@ const EventLeftSiderbar = () => {
             <FaVideo /> Online
           </div>
           <div className="action">
-            <MdOutlinePaid /> Paid
+            <GrTicket /> Paid
           </div>
         </div>
         <p className="eventLink">
@@ -65,8 +67,10 @@ const EventLeftSiderbar = () => {
       </div>
       {/* buttons */}
       <div className="btnContainer">
-        <button className="ctaButton">Buy Now</button>
-        <button href="#!" className="officialWebsite">
+        <button className="ctaButton" onClick={() => navigate("/payment")}>
+          Buy Now
+        </button>
+        <button href="#" className="officialWebsite">
           Official Website
           <GoLinkExternal />
         </button>

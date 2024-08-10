@@ -1,4 +1,12 @@
-import { TfiWorld, FaFacebookF, FaXTwitter, TiSocialLinkedin } from "./icon";
+import {
+  TfiWorld,
+  FaFacebookF,
+  FaXTwitter,
+  TiSocialLinkedin,
+  GrTicket,
+  LuUsers2,
+  BiWallet,
+} from "./icon";
 
 export const ticketPlanDetails = [
   {
@@ -189,5 +197,20 @@ export const workshopData = [
     workshop_description: "This is a workshop connected to a ticket",
     workshop_topic_img_url:
       "https://dev.konfhub.com/_next/image?url=https%3A%2F%2Fdev-media.konfhub.com%2Fsponsors%2F2024%2FJune%2F10%2F1717978363785-8225249d-f4dd-4572-826e-84093b5eb32f.jpg&w=1920&q=75",
+  },
+];
+
+export const sideBarData = [
+  {
+    name: "Pick Tickets",
+    icon: <GrTicket />,
+  },
+  {
+    name: "Attendee Details",
+    icon: <LuUsers2 />,
+  },
+  {
+    name: "Payment",
+    icon: <BiWallet />,
   },
 ];

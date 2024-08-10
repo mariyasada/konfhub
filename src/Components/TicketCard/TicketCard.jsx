@@ -1,6 +1,7 @@
 import React from "react";
 import "./TicketCard.css";
 import { IoLocation } from "../../icon";
+import { useLocation } from "react-router";
 
 const TicketCard = ({ ticket }) => {
   const {
@@ -12,6 +13,7 @@ const TicketCard = ({ ticket }) => {
     button_name,
     ticket_description,
   } = ticket;
+  const { pathname } = useLocation();
   return (
     <div className="ticketCard">
       <p className="ticketPlanName">{ticket_plan_type}</p>
@@ -23,10 +25,23 @@ const TicketCard = ({ ticket }) => {
         </a>
       )}
       <p className="ticketAdditional">{ticket_additional_heading}</p>
-      <strong className="ticketTimestamp">{ticket_timestamp}</strong>
+      {pathname === "/" && (
+        <strong className="ticketTimestamp">{ticket_timestamp}</strong>
+      )}
       <div className="ticketPlan">
-        <span className="ticketType">{ticket_type}</span>
-        <button className="ctaButton">{button_name}</button>
+        <span
+          className="ticketType"
+          style={{ fontSize: pathname === "/" ? "26px" : "24px" }}
+        >
+          {ticket_type}
+        </span>
+        <button className={pathname === "/" ? "ctaButton" : "paymentButton"}>
+          {pathname === "/"
+            ? button_name
+            : button_name === "Register"
+            ? "Add"
+            : button_name}
+        </button>
       </div>
     </div>
   );

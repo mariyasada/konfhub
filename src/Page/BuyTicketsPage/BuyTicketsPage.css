@@ -1,0 +1,54 @@
+.buyTicketContainer{
+    display: flex;
+    gap:12px;
+    padding: 0.8rem;
+    flex-direction: column;
+
+}
+.ticketHeading{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    width: 70%;
+    margin-left: 3rem;
+}
+.iconDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #f6f6fc;
+    border:2px solid rgb(202, 202, 202);
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.iconDiv:hover{
+    background: black;
+    color:white;
+    transform: scale(1.2) translateZ(0px);
+    border:2px solid black;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -10px;
+   
+}
+.titleContainer>h2{
+    font-size: 1.7rem;
+}
+.timestampDetail{
+   display: flex;
+   align-items: center;
+   gap:10px;
+   font-size: 1.1rem;
+   font-weight: 500; 
+}
+.detailsContainer{
+    /* border:2px solid rgb(202, 202, 202) */
+}

@@ -12,10 +12,11 @@ import TicketCard from "../TicketCard/TicketCard";
 import CollapsableTicket from "../CollapsableTicket/CollapsableTicket";
 import SpeakerCard from "../SpeakerCard/SpeakerCard";
 import WorkshopCard from "../WorkshopCard/WorkshopCard";
+import ReusableTickets from "../ReusableTickets/ReusableTickets";
 
 const EventDetails = () => {
   const { pageData } = useData();
-  const [iscollapsableIds, setIscollapsableIds] = useState([]);
+  // const [iscollapsableIds, setIscollapsableIds] = useState([]);
   const aboutRef = useRef(null);
   const ticketsRef = useRef(null);
   const speakersRef = useRef(null);
@@ -63,7 +64,7 @@ const EventDetails = () => {
       {/* TICKET CONTAINER */}
       <div className="container" ref={ticketsRef}>
         <h2 className="manrope-heading">TICKETS</h2>
-        <div className="ticketContainer">
+        {/* <div className="ticketContainer">
           {ticketPlanDetails.map((ticket) => (
             <TicketCard key={ticket?.id} ticket={ticket} />
           ))}
@@ -77,7 +78,8 @@ const EventDetails = () => {
               />
             ))}
           </div>
-        </div>
+        </div> */}
+        <ReusableTickets />
       </div>
       {/*  speaker sections */}
       <div className="container" ref={speakersRef}>

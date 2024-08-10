@@ -14,7 +14,6 @@ const DataProvider = ({ children }) => {
           "https://dev-api.konfhub.com/event/public/konfhub-frontend-evaluation-task"
         );
         setLoading(false);
-        console.log(data);
         setPageData(data);
       } catch {
         console.error("can't get data");
