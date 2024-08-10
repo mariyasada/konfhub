@@ -63,21 +63,6 @@ const EventDetails = () => {
       {/* TICKET CONTAINER */}
       <div className="container" ref={ticketsRef}>
         <h2 className="manrope-heading">TICKETS</h2>
-        {/* <div className="ticketContainer">
-          {ticketPlanDetails.map((ticket) => (
-            <TicketCard key={ticket?.id} ticket={ticket} />
-          ))}
-          <div className="collapsableTicketContainer">
-            {accordionCardData?.map((collapsableTicket) => (
-              <CollapsableTicket
-                key={collapsableTicket?.id}
-                ticket={collapsableTicket}
-                iscollapsableIds={iscollapsableIds}
-                setIscollapsableIds={setIscollapsableIds}
-              />
-            ))}
-          </div>
-        </div> */}
         <ReusableTickets />
       </div>
       {/*  speaker sections */}
