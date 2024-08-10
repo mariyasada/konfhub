@@ -8,7 +8,7 @@
     /* padding: 1rem; */
 }
 .sidebarData{
-    height:100%;
+    height:fit-content;
     background: #f6f6fc;
     padding: 1rem;
     border-top-left-radius:15px ;
