@@ -7,6 +7,8 @@ It contains two pages
 1. Home Page
 2. Tickets with cart
 
+### Live link: https://konfhub.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
