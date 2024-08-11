@@ -105,18 +105,30 @@ const EventDetails = () => {
           }}
         />
         <div className="">
-          <img
-            className="sponsor_img"
-            src="https://dev.konfhub.com/_next/image?url=https%3A%2F%2Fdev-media.konfhub.com%2Fsponsors%2F2024%2FJune%2F09%2F1717977584480-2a58c92e-ac5f-4ebd-9570-d6bcfc792dc2.png&w=1920&q=75"
-          />
+          <a
+            herf="https://konfhub.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="sponsor_img"
+              src="https://dev.konfhub.com/_next/image?url=https%3A%2F%2Fdev-media.konfhub.com%2Fsponsors%2F2024%2FJune%2F09%2F1717977584480-2a58c92e-ac5f-4ebd-9570-d6bcfc792dc2.png&w=1920&q=75"
+            />
+          </a>
 
           <div className="category">
             <h2>Sponsor Category</h2>
             <div className="divider"></div>
-            <img
-              className="category_img"
-              src="https://dev-media.konfhub.com/sponsors/2024/June/10/1717977635909-75bb1d01-51a2-4af1-82cd-72d587192692.jpg"
-            />
+            <a
+              href="https://darkknight.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="category_img"
+                src="https://dev-media.konfhub.com/sponsors/2024/June/10/1717977635909-75bb1d01-51a2-4af1-82cd-72d587192692.jpg"
+              />
+            </a>
           </div>
         </div>
       </div>
